@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark{
+            background-color: aqua;
+        }
+        body{
+            background-color: bisque;
+        }
+    </style>
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>AULA SOBRE IMAGENS</h1>
+    <h2>
+        Imagem dinâmica
+    </h2>
+    <p>
+        Abrindo em varios dispositivos diferentes
+    </p>
+    <picture>
+        <source media="(max-width: 500px )" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="foto grande"> <!-- SEGUIR SEMPRE COMO ESSA ORDEM DE CIMA -->
+    </picture>
+    <hr>
+    <p>
+        Melhorando a experiencia do usuario no meu site isso aumenta o bounce rate do meu site!!!!!!!! <!--   Ficar sempre ligado nisso  -->
+    </p>
+    <hr>
+    <h2>
+        Reproduzindo audios no meu site 
+    </h2>
+    <audio loop controls preload="metadata">
+        <source src="midia/Échappé - Dan Bodan.mp3" type="audio/mpeg" >
+    </audio>
+    <p><a href="midia/Échappé - Dan Bodan.mp3">Baixe o audio aqui</a></p>
+    <!-- FORMATOS QUE SAO COMPATIVEIS: MP3; WAV; OGG -->
+</body>
+</html>

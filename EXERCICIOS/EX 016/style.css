@@ -1,0 +1,18 @@
+
+body{
+    background-color: #FF9500;
+    
+}
+h1{
+    color: #000000;
+}
+p{
+    font-family: fantasy;
+}
+mark{
+    color: aqua;
+}
+.titulos{
+    font-family: fantasy;
+    color: blueviolet;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 10px;
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;
+}
+
+body{
+    background-image: linear-gradient(to left, black, grey);
+}

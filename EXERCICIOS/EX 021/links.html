@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a::after{
+            
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+    <title>LINKS</title>
+</head>
+<body>
+    <h1>PERSONALIZANDO LINKS</h1>
+    <ul>
+        <a href="https://github.com/marconvs" target="_blank">
+            <li>Repositorio GitHub</li>
+        </a>
+        <a href="https://www.youtube.com/@DEVmarconvs" target="_blank">
+            <li>Canal do youtube</li>
+        </a>
+        <a href="https://buhspee.store/" target="_blank">
+            <li>Site do Marco</li>
+        </a>
+    </ul>
+</body>
+</html>

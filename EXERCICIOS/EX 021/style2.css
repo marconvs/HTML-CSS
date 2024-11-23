@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    background-image: linear-gradient(to left, black, blue);
+    text-align: center;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover{
+    background-image: linear-gradient(to left, red, black);
+    display: block;
+}
+
+div:hover > p{
+    display: block;
+    color: rgb(0, 255, 13);
+
+} 

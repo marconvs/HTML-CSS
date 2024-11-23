@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'Marco';
+    src: url(JunigardenSwash_PERSONAL_USE_ONLY.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to left, black, white);
+}
+
+main{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+button{
+    background-color: blue;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding:  10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    margin: auto;
+
+
+
+}
+*{
+   
+    font-family: "Work Sans", sans-serif;
+
+}
+
+h1{
+    font-family: 'Marco';
+    text-align: center;
+}
+/* LA ENCIMA TEM AS DUAS FORMAS, TANTO DO GOOGLE FONTS TANTO FONTE BAIXADA!!!! /*
